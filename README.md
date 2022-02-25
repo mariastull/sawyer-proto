@@ -2,9 +2,10 @@
 For Webots
 
 ## How to use
+Add Sawyer.proto and Sawyer_Meshes into the "Protos" folder of a webots project; then, to add Sawyer to the world, select "Add New > Proto Nodes (Current Project) > Sawyer (Robot)"
 
 ### Directory
-grasp_setup.wbt is a simple world setup, along with sawyer_test1.py demonstrates a very simple successful grasp
+grasp_setup.wbt is a simple world setup, which along with sawyer_test1.py demonstrates a very simple successful grasp
 
 ### Joints 
 right_j0, right_j1, ...., right_j6 where j0 is the base and j6 is the wrist
