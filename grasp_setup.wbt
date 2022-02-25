@@ -1,0 +1,28 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.1867921394169888 -0.0063479232392733105 0.982378949551838 3.208353114960227
+  position 2.063797872622979 0.35525034280910744 1.6687128505563966
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+}
+SolidBox {
+  translation 1.115 0.161 1.21
+  size 0.02 0.02 0.2
+  physics Physics {
+  }
+}
+Table {
+  translation 1.11712 0.39732 -2.0985e-22
+  size 1 1.8 1.15
+}
+Sawyer {
+  translation 0 0 0.91
+  controller "sawyer_test1"
+}
